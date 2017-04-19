@@ -17,6 +17,6 @@ BrightnessVolumeView *brightnessVolumeView = [[BrightnessVolumeView alloc] initW
 
 [完整代码下载](https://github.com/YiQieSuiYuan/BrightnessVolumeView)
 
-### 参考
-[http://www.jianshu.com/p/fd754f7e847b](http://www.jianshu.com/p/fd754f7e847b)
+### 原理说明
+[http://blog.zlcode.com/2017/04/19/ios-brightnessvolumeview/](http://blog.zlcode.com/2017/04/19/ios-brightnessvolumeview/)
 
