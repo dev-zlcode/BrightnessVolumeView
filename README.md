@@ -12,7 +12,8 @@ BrightnessVolumeView *brightnessVolumeView = [[BrightnessVolumeView alloc] initW
 	
 ### 图片示例：
 
-![uiwebview-menu-1](./Screenshot/IMG_1.PNG)![uiwebview-menu-1](./Screenshot/IMG_2.PNG)
+![uiwebview-menu-1](./Screenshot/IMG_1.PNG)
+![uiwebview-menu-1](./Screenshot/IMG_2.PNG)
 
 [完整代码下载](https://github.com/YiQieSuiYuan/BrightnessVolumeView)
 
