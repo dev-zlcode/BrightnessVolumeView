@@ -4,6 +4,7 @@
 //
 
 #import "BrightnessVolumeView.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation BrightnessVolumeView
 
@@ -79,7 +80,12 @@
                 break;
             }
         }
-        return _volumeViewSlider.value;
+        
+        // 解决初始状态下获取不到系统音量
+        AVAudioSession *audioSession = [AVAudioSession sharedInstance];
+        CGFloat systemVolume = audioSession.outputVolume;
+        
+        return systemVolume;
     } else {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
